@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incantation</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Form.html">Incantations</a>
+            <a href="Table.html">MTG Commanders</a>
+        </nav>
+    </header>
+    <h1>
+        Make an Incantation
+    </h1>
+        <form action="thankyou.html" method="get">
+
+            <fieldset>
+                <h2>Set Your Intention</h2>
+                    <label for="intention">Intention:</label><br>
+                    <input type="text" id="intention" name="user_intention" placeholder="What do you desire?"><br>
+            </fieldset>
+
+            <fieldset>
+                <h2>Select Your Grimoire:</h2>
+                    <label><input type="radio" id="Necronomicon" name="g_selection" value="Necronomicon">Necronomicon</label>
+                    <label><input type="radio" id="solomon" name="g_selection" value="Key of Solomon">Key of Solomon</label>
+                    <label><input type="radio" id="darkhold" name="g_selection" value="Darkhold">Darkhold</label>
+                    <label><input type="radio" id="malleus" name="g_selection" value="Malleus Malefacarum">Malleus Malefacarum</label>
+            </fieldset>
+
+            <fieldset>
+                <h2>Incorporate Your Reagents:</h2>
+                    <label><input type="checkbox" name="r_selection" value="Mandrake">Mandrake</label><br>
+                    <label><input type="checkbox" name="r_selection" value="Wolfsbane">Wolfsbane</label><br>
+                    <label><input type="checkbox" name="r_selection" value="Nightshade">Nightshade</label><br>
+                    <label><input type="checkbox" name="r_selection" value="Phoenix Feather">Phoenix Feather</label><br>
+                    <label><input type="checkbox" name="r_selection" value="Quicksilver">Quicksilver</label><br>
+                    <label><input type="checkbox" name="r_selection" value="Ectoplasm">Ectoplasm</label><br>
+                    <label><input type="checkbox" name="r_selection" value="Sulfur">Sulfur</label><br>
+            </fieldset>
+
+            <input type="submit" value="Conjure from the Ether">
+        </form>
+</body>
+</html>
